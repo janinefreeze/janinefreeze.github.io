@@ -1,0 +1,65 @@
+body {
+    background: #838C7D;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+form, label {
+    color: white !important;
+}
+
+input {
+    color: black;
+}
+
+#mainNavbar {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#headingGroup h1 {
+    font-family: 'Merriweather', serif;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    letter-spacing: .15em;
+}
+
+.progressBold {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.section1 {
+    background: #F23D4C;
+} 
+
+.section2 {
+    background: #F2E1AE;
+    color: black;
+}
+
+.section3 {
+    background: #025E73;
+}
+
+.section4 {
+    background: #5BD9AB;
+}
+
+
+.sm-icons {
+    flex-direction: row;
+  }
+
+@media only screen and (max-width: 960px) {
+    .sm-icons .nav-item {
+      padding-right: 1em;
+    }
+  }

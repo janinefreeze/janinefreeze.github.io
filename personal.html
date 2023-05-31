@@ -18,6 +18,10 @@
 
     <title>Janine Freeze Portfolio</title>
     <link rel="shortcut icon" type="image/png" href="imgs/favicon2023.png"/>
+
+    <!-- scroll to top arrow button link-->
+    <script src="https://kit.fontawesome.com/f68a076f74.js" crossorigin="anonymous"></script>
+
     <style>
         #myImg {
         border-radius: 5px;
@@ -165,96 +169,92 @@
         <div class="row align-items-center">
             <div class="col">
                 <div class="col-lg-10 px-5 text-dark pt-5">
-                    <h2>Personal Work</h2>
-                    <p>This is where I post things like mock-ups, personal illustrations, and recreational design work. For even more, try checking out the following links, which are all Instagram accounts:
-                    </p>
-                    <P>
-                        <ul class="list-unstyled">
-                            <li>&#8226; Sushifunk: This is my personal art account, where I post drawings, calligraphy, and other things of that nature.</li>
-                            <li>&#8226; Sushifunk.tats An account that is focused on tattoo designs.</li>
-                            <li>&#8226; Freeze Frame Comics A fairly new account where I post comics about my family life!</li>
-                            <li>&#8226; NayNay Makes Food This is my husband's cooking account! It is an educational account focused on making different recipes for people to follow. He makes the food, and I produce the reels. I film the footage, edit, add music/voiceovers, add hashtags, and post! We try to aim for once a week.</li>
-                          </ul>
-                    </P>
-                    <h5>Mock-Ups</h5>
-                    <div class="row align-items-center justify-content-left">
-                        <!-- Trigger the Modal -->
-                        <img id="myImg" src="imgs/outreach.jpg" alt="Snow" style="width:100%;max-width:300px">
-
-                        <!-- The Modal -->
-                        <div id="myModal" class="modal">
-
-                        <!-- The Close Button -->
-                        <span class="close">&times;</span>
+                  <h2>Personal Work</h2>
+                  <p>This is where I post things like mock-ups, personal illustrations, and recreational design work. For even more, try checking out the following links, which are all Instagram accounts:
+                  </p>
+                  <P>
+                      <ul class="list-unstyled">
+                          <li>&#8226; <a href="http://www.instagram.com/sushifunk" target="_blank">Sushifunk</a>: This is my personal art account, where I post drawings, calligraphy, and other things of that nature.</li>
+                          <li>&#8226; <a href="http://www.instagram.com/sushifunk.tats" target="_blank">Sushifunk.tats</a>: An account that is focused on tattoo designs.</li>
+                          <li>&#8226; <a href="http://www.instagram.com/freezeframecomics" target="_blank">Freeze Frame Comics</a>: A fairly new account where I post comics about my family life!</li>
+                          <li>&#8226; <a href="http://www.instagram.com/naynaymakesfood" target="_blank">NayNay Makes Food</a>: This is my husband's cooking account! It is an educational account focused on making different recipes for people to follow. He makes the food, and I produce the reels. I film the footage, edit, add music/voiceovers, add hashtags, and post! We try to aim for once a week.</li>
+                        </ul>
+                  </P>
+                  <div>
+                    <h5>Coding Projects</h5>
+                    <div class="row align-items-center justify-content-left pb-4 pl-3">
+                      
+                      <div class="col-lg-3 col-md-4 col-sm-12 p-1">
+                        <div><a href="https://janinefreeze.github.io/museum-of-candy" target="_blank">Museum of Candy</a></div>
+                        <img class="myImages" id="myImg" 
+                        src="imgs/personal/museum-of-candy.jpg" 
+                        alt="Project I made following the guidance of Colt Steele in The Web Developer Bootcamp 2023. HTML, CSS, and Bootstrap." style="width:100%;max-width:300px" >
+                      </div>
+                      
+                      <div class="col-lg-3 col-md-4 col-sm-12 p-1">
+                        <div><a href="https://janinefreeze.github.io/church-mockup" target="_blank">Church Website</a></div>
+                      <img class="myImages" id="myImg" 
+                      src="imgs/personal/church-mockup.jpg" 
+                      alt="Project I made just to practice bootstrap. Not a real church. HTML, CSS, and Bootstrap." 
+                      style="width:100%;max-width:300px">
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <h5>Lorem Ipsum</h5>
+                      <div class="row align-items-center justify-content-left pb-4">
                         
-                        <!-- Modal Content (The Image) -->
-                        <img class="modal-content" id="img01">
+                        <div class="col-lg-3 col-md-4 col-sm-12 p-1">
+                        <img class="myImages" id="myImg" 
+                        src="imgs/outreach/FB-VisionSunday.jpg" 
+                        alt="An example of one of the weekly announcement graphics I made (social media version). Adobe Photoshop." 
+                        style="width:100%;max-width:300px">
+                        </div>
 
-                        <!-- Modal Caption (Image Text) -->
+                        <div class="col-lg-3 col-md-4 col-sm-12 p-1">
+                        <img class="myImages" id="myImg" 
+                        src="imgs/outreach/Website-VisionSunday.jpg" 
+                        alt="An example of one of the weekly announcement graphics I made (website version). Adobe Photoshop." 
+                        style="width:100%;max-width:300px">
+                        </div>
+                        
+                        <div class="col-lg-3 col-md-4 col-sm-12 p-1">
+                        <img class="myImages" id="myImg" 
+                        src="imgs/outreach/fb-fallingdagger.jpg" 
+                        alt="An example of one of the weekly announcement graphics I made (social media version). Adobe Photoshop." 
+                        style="width:100%;max-width:300px">
+                        </div>
+                        
+                        <div class="col-lg-3 col-md-4 col-sm-12 p-1">
+                        <img class="myImages" id="myImg" 
+                        src="imgs/outreach/website-fallingdagger.jpg" 
+                        alt="An example of one of the weekly announcement graphics I made (website version). Adobe Photoshop." 
+                        style="width:100%;max-width:300px">
+                        </div>
+                         
+                      </div>
+                      
+                      <!-- modal div, do not remove-->
+                      <div id="myModal" class="modal">
+                        <span class="close">&times;</span>
+                        <img class="modal-content" id="img01">
                         <div id="caption"></div>
-                        </div>
-                    </div>
-                        <div class="card col-lg-3 col-md-6 col-sm-12 m-1 p-2" style="width:18rem;">
-                          <a href="imgs/outreachkids.jpg" target="_blank"><img class="card-img" src="imgs/outreachkids.jpg" alt="Outreach Kids Logo"></a>
-                          <div class="card-body">
-                            <h5 class="card-title">Outreach Kids Logo</h5>
-                            <p class="card-text">Love this design still. Was used for a few years!</p>
-                          </div>
-                        </div>
-                        <div class="card col-lg-3 col-md-6 col-sm-12 m-1 p-2" style="width: 18rem;">
-                            <a href="imgs/OTE.jpg" target="_blank"><img class="card-img" src="imgs/OTE.jpg" alt="Old Timey Electric Logo"></a>
-                            <div class="card-body">
-                              <h5 class="card-title">Old Timey Electric</h5>
-                              <p class="card-text">Designed this logo for a local business.</p>
-                            </div>
-                        </div>
-                        <div class="card col-lg-3 m-2 p-2" style="width:18rem;">
-                          <a href="https://www.hearthandhomeforge.com/" target="_blank"><img class="card-img" src="imgs/hnh.jpg" alt="Hearth and Home Forge Website"></a>
-                          <div class="card-body">
-                            <h5 class="card-title">Hearth&Home Forge</h5>
-                            <p class="card-text">Worked w/ client to create site using Squarespace.</p>
-                          </div>
-                        </div>
-                        <div class="card col-lg-3 m-2 p-2" style="width:18rem;">
-                          <a href="imgs/UpstateTinkering.jpg" target="_blank"><img class="card-img" src="imgs/UpstateTinkering.jpg" alt="Upstate Tinkerin' Logo"></a>
-                          <div class="card-body">
-                            <h5 class="card-title">Upstate Tinkerin'</h5>
-                            <p class="card-text">Designed a logo based on a ball bearing.</p>
-                          </div>
-                        </div>
-                        <div class="card col-lg-3 m-2 p-2" style="width:18rem;">
-                          <a href="imgs/orbis.jpg" target="_blank"><img class="card-img" src="imgs/orbis.jpg" alt="Orbis T-Shirt Design"></a>
-                          <div class="card-body">
-                            <h5 class="card-title">Orbis T-shirt Design</h5>
-                            <p class="card-text">Designed this shirt design for a free-running business.</p>
-                          </div>
-                        </div>
-                        <div class="card col-lg-3 m-2 p-2" style="width:18rem;">
-                          <a href="imgs/foothills.jpg" target="_blank"><img class="card-img" src="imgs/foothills.jpg" alt="Foothills Wellness"></a>
-                          <div class="card-body">
-                            <h5 class="card-title">Foothills Wellness</h5>
-                            <p class="card-text">Designed for a friend's granola business!</p>
-                          </div>
-                        </div>
-                        <div class="card col-lg-3 m-2 p-2" style="width:18rem;">
-                          <a href="imgs/King-of-Kings.jpg" target="_blank"><img class="card-img" src="imgs/lion-thumb.jpg" alt="Orbis T-Shirt Design"></a>
-                          <div class="card-body">
-                            <h5 class="card-title">King of Kings</h5>
-                            <p class="card-text">Created this as a print. 24X36 in.</p>
-                          </div>
-                        </div>
-                        <div class="card col-lg-3 m-2 p-2" style="width:18rem;">
-                          <a href="imgs/prince-of-peace.jpg" target="_blank"><img class="card-img" src="imgs/lamb-thumb.jpg" alt="Prince of prince-of-peace"></a>
-                          <div class="card-body">
-                            <h5 class="card-title">Prince of Peace</h5>
-                            <p class="card-text">Created this as a print. 24X36 in.</p>
-                          </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                      </div>
+                      
+
+                  </div>
+                </div>  
+            </div>  
+        </div>
+
+        <div>
+        <!-- Back to top button -->
+        <button type="button" class="btn btn-secondary btn-floating btn-lg" id="btn-back-to-top">
+          <i class="fa-solid fa-arrow-up"></i>
+        </button>
         </div>
     </section>
+
 
     <!-- Footer -->
 <footer class="mainFooter text-center text-lg-start bg-dark text-muted">
@@ -286,29 +286,64 @@
       });
 
     </script>
+
+    <script>
+      // create references to the modal...
+    var modal = document.getElementById('myModal');
+    // to all images -- note I'm using a class!
+    var images = document.getElementsByClassName('myImages');
+    // the image in the modal
+    var modalImg = document.getElementById("img01");
+    // and the caption in the modal
+    var captionText = document.getElementById("caption");
+
+    // Go through all of the images with our custom class
+    for (var i = 0; i < images.length; i++) {
+      var img = images[i];
+      // and attach our click listener for this image.
+      img.onclick = function(evt) {
+        console.log(evt);
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+      }
+    }
+
+    var span = document.getElementsByClassName("close")[0];
+
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+
     </script>
 
     <script>
-        // Get the modal
-        var modal = document.getElementById("myModal");
-        
-        // Get the image and insert it inside the modal - use its "alt" text as a caption
-        var img = document.getElementById("myImg");
-        var modalImg = document.getElementById("img01");
-        var captionText = document.getElementById("caption");
-        img.onclick = function(){
-          modal.style.display = "block";
-          modalImg.src = this.src;
-          captionText.innerHTML = this.alt;
-        }
-        
-        // Get the <span> element that closes the modal
-        var span = document.getElementsByClassName("close")[0];
-        
-        // When the user clicks on <span> (x), close the modal
-        span.onclick = function() {
-          modal.style.display = "none";
-        }</script>
+      //Get the button
+      let mybutton = document.getElementById("btn-back-to-top");
+
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function () {
+      scrollFunction();
+      };
+
+      function scrollFunction() {
+      if (
+      document.body.scrollTop > 20 ||
+      document.documentElement.scrollTop > 20
+      ) {
+      mybutton.style.display = "block";
+      } else {
+      mybutton.style.display = "none";
+      }
+      }
+      // When the user clicks on the button, scroll to the top of the document
+      mybutton.addEventListener("click", backToTop);
+
+      function backToTop() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+      }
+    </script>
     
   </body>
 </html>

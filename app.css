@@ -5,6 +5,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
 }
   
 footer {
@@ -16,7 +17,7 @@ a:link {
 }
 
 a:visited {
-    color: #2A231F;
+    color: #5e42d8;
   }
 
 a:hover {

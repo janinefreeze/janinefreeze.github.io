@@ -19,7 +19,7 @@
     <title>Janine Freeze Portfolio</title>
     <link rel="shortcut icon" type="image/png" href="imgs/favicon2023.png"/>
 
-    <!-- scroll to top arrow button link-->
+    <!-- script for scroll to top arrow button link-->
     <script src="https://kit.fontawesome.com/f68a076f74.js" crossorigin="anonymous"></script>
     
     <style>
@@ -230,7 +230,7 @@
                         <div class="col-lg-3 col-md-4 col-sm-12 p-1">
                           <img class="myImages" id="myImg" 
                           src="imgs/personal/ut-tshirt1.jpg" 
-                          alt="Upstate Tinkerin' Youtube Channel Banner. Adobe Photoshop." 
+                          alt="Upstate Tinkerin' T-shirt mock-up. Adobe Photoshop." 
                           style="width:100%;max-width:400px">
                         </div>
 
@@ -330,11 +330,11 @@
         </div>
 
         <div>
-        <!-- Back to top button -->
-        <button type="button" class="btn btn-secondary btn-floating btn-lg" id="btn-back-to-top">
-          <i class="fa-solid fa-arrow-up"></i>
-        </button>
-        </div>
+          <!-- Back to top button -->
+          <button type="button" class="btn btn-secondary btn-floating btn-lg" id="btn-back-to-top">
+            <i class="fa-sharp fa-solid fa-arrow-up"></i>
+          </button>
+          </div>
     </section>
 
 
@@ -400,31 +400,31 @@
     </script>
 
     <script>
-      //Get the button
-      let mybutton = document.getElementById("btn-back-to-top");
+//Get the button
+let mybutton = document.getElementById("btn-back-to-top");
 
-      // When the user scrolls down 20px from the top of the document, show the button
-      window.onscroll = function () {
-      scrollFunction();
-      };
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function () {
+  scrollFunction();
+};
 
-      function scrollFunction() {
-      if (
-      document.body.scrollTop > 20 ||
-      document.documentElement.scrollTop > 20
-      ) {
-      mybutton.style.display = "block";
-      } else {
-      mybutton.style.display = "none";
-      }
-      }
-      // When the user clicks on the button, scroll to the top of the document
-      mybutton.addEventListener("click", backToTop);
+function scrollFunction() {
+  if (
+    document.body.scrollTop > 20 ||
+    document.documentElement.scrollTop > 20
+  ) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+  // When the user clicks on the button, scroll to the top of the document
+  mybutton.addEventListener("click", backToTop);
 
-      function backToTop() {
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
-      }
+  function backToTop() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
     </script>
     
   </body>
